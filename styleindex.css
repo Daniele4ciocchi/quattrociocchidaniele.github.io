@@ -11,7 +11,6 @@ body{
 }
 .titolo{
   text-align: center;
-  text-transform: uppercase;
   font-size: 25px;
   color: rgb(100,100,100);
   margin-top: 15px;
@@ -35,7 +34,7 @@ li#android, li#ios, li#macos, li#linux, li#windows{
   background-color: rgb(230,230,230);
   color: rgb(100,100,100);
 }
-h2#novit{
+h2#novita{
   text-align: center;
   line-height: 50px;
 }
