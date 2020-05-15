@@ -12,18 +12,18 @@
   background-color:inherit;
   color:inherit;
   text-decoration: none;
-  font-family: roboto;
+  font-family: DM Mono;
   background-color: inherit;
   margin: 0px;
 }
 body{
-  background-color: rgb(77, 190, 102);
+  background-color: rgb(77, 190, 110);
 }
-div{
+.novita, .bottom{
   height: auto;
   width: auto;
   padding: 10px;
-  border-radius: 10px ;
+  border-radius: 20px ;
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 40px;
@@ -42,34 +42,29 @@ div{
   margin-left: 40px;
   margin-right: 40px;
 }
+.novita{
+  background-color: rgb(230,230,230);
+  color: rgb(100,100,100);
+}
+.le_novita{
+  padding: 10px;
+}
+.bottom{
+  background-color: rgb(100, 100, 100);
+  color: rgb(200, 200, 200);
+  margin-left: 40px;
+}
+.indirizzi{
+  padding: 5px;
+}
 li#bio, li#contatti{
   text-transform: uppercase;
   margin-right: 60px;
   display: inline;
   color: rgb(240,240,240);
 }
-.novita{
-  background-color: rgb(230,230,230);
-  color: rgb(100,100,100);
-}
 h2#novita{
   text-align: left;
   margin-left: 10px;
   line-height: 50px;
-}
-
-.bottom{
-  background-color: rgb(100, 100, 100);
-  color: rgb(200, 200, 200);
-}
-h3#contatti{
-  margin-left: 30px;
-  padding-top: 40px;
-
-}
-h3#contatti{
-  margin-left: 30px;
-  padding-top: 40px;
-  margin-bottom: 50px;
-
 }
