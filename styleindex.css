@@ -57,8 +57,8 @@ body{
 .indirizzi{
   padding: 5px;
 }
-li#bio, li#contatti{
-  text-transform: uppercase;
+li#menu{
+
   margin-right: 60px;
   display: inline;
   color: rgb(240,240,240);
@@ -67,4 +67,11 @@ h2#novita{
   text-align: left;
   margin-left: 10px;
   line-height: 50px;
+}
+#non{
+  padding: 5px;
+  text-align: center;
+}
+h2#contatti{
+  text-align: center;
 }
