@@ -93,6 +93,9 @@ h2#novita{
   padding: 5px;
   text-align: center;
 }
+#n{
+  text-align: center;
+}
 h4#contatti:hover{
   color: white;
 }
