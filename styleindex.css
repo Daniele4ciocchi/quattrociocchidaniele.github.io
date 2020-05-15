@@ -1,3 +1,13 @@
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
 *{
   background-color:inherit;
   color:inherit;
@@ -8,6 +18,16 @@
 }
 body{
   background-color: rgb(77, 190, 102);
+}
+div{
+  height: auto;
+  width: auto;
+  padding: 10px;
+  border-radius: 10px ;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .titolo{
   text-align: center;
@@ -22,42 +42,34 @@ body{
   margin-left: 40px;
   margin-right: 40px;
 }
-li#android, li#ios, li#macos, li#linux, li#windows{
+li#bio, li#contatti{
+  text-transform: uppercase;
   margin-right: 60px;
   display: inline;
   color: rgb(240,240,240);
 }
 .novita{
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-top: 40px;
   background-color: rgb(230,230,230);
   color: rgb(100,100,100);
 }
 h2#novita{
-  text-align: center;
+  text-align: left;
+  margin-left: 10px;
   line-height: 50px;
 }
-div#googleass{
-  margin-left: 30px;
-  margin-top: 30px;
-  height: 200px;
-  width: 300px;
-}
-h1#ass{
-  background-image:rgba(, 0, 0, 0.5) ;
-  background-size: 300px;
-  padding-bottom: 140px;
-}
+
 .bottom{
   background-color: rgb(100, 100, 100);
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-top: 50px;
   color: rgb(200, 200, 200);
 }
-h3#contatti, h3#contatti{
+h3#contatti{
   margin-left: 30px;
   padding-top: 40px;
+
+}
+h3#contatti{
+  margin-left: 30px;
+  padding-top: 40px;
+  margin-bottom: 50px;
 
 }
