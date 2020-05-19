@@ -24,6 +24,8 @@ body{
   text-align: center;
   font-size: 50px;
   color: grey;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .menu{
   text-align: center;
@@ -51,8 +53,8 @@ li#menu{
   background-color: white;
   padding:10px;
   border-radius: 15px;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .progetti{
   color: white;
@@ -60,8 +62,8 @@ li#menu{
   background-color: grey;
   padding:10px;
   border-radius: 15px;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .bottom{
   color: white;
