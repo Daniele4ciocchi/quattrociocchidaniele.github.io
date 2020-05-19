@@ -68,7 +68,7 @@ li#menu{
   text-align: center;
   background-color: grey;
   margin-top: 50px;
-  position: static;
+  position: fixed;
   width: 100%;
   bottom: 0px;
   padding: 20px;
@@ -93,8 +93,5 @@ li#menu{
   .sx, .dx{
     margin-top: 20px;
     width: 100%;
-  }
-  .bottom{
-    margin-top: 50%;
   }
 }
